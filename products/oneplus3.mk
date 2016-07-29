@@ -44,8 +44,8 @@ TARGET_VENDOR := oneplus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=OnePlus3 \
     PRODUCT_NAME=OnePlus3 \
-    BUILD_FINGERPRINT=OnePlus/OnePlus3/OnePlus3:6.0.1/MMB29M/288280:user/release-keys \
-    PRIVATE_BUILD_DESC="OnePlus3-user 6.0.1 MMB29M 31 dev-keys"
+    BUILD_FINGERPRINT=OnePlus/OnePlus3/OnePlus3:6.0.1/MMB29M/288360:user/release-keys \
+    PRIVATE_BUILD_DESC="OnePlus3-user 6.0.1 MMB29M 32 dev-keys"
 
 # AICP Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
