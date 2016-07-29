@@ -38,6 +38,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 TARGET_VENDOR_PRODUCT_NAME := OnePlus3
 TARGET_VENDOR_DEVICE_NAME := OnePlus3
 
+TARGET_VENDOR := oneplus
+
 #Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=OnePlus3 \
