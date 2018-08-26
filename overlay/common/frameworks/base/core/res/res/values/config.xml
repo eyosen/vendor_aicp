@@ -44,6 +44,25 @@
         <item>com.google.android.setupwizard/com.google.android.setupwizard.time.DateTimeCheck</item>
     </string-array>
 
+    <string-array name="config_disabledComponents" translatable="false">
+        <item>com.google.android.gsf/com.google.android.gsf.update.phone.SystemUpdateActivity</item>
+        <item>com.google.android.gsf/com.google.android.gsf.update.phone.SystemUpdateService$Receiver</item>
+        <item>com.google.android.gsf/com.google.android.gsf.update.phone.SystemUpdateService$SecretCodeReceiver</item>
+        <item>com.google.android.gsf/com.google.android.gsf.update.phone.SystemUpdateServiceReceiver</item>
+        <item>com.google.android.gms/com.google.android.gms.update.phone.SystemUpdateActivity</item>
+        <item>com.google.android.gms/com.google.android.gms.update.phone.SystemUpdateService$Receiver</item>
+        <item>com.google.android.gms/com.google.android.gms.update.phone.SystemUpdateService$ActiveReceiver</item>
+        <item>com.google.android.gms/com.google.android.gms.update.phone.SystemUpdateService$SecretCodeReceiver</item>
+        <item>com.google.android.gms/com.google.android.gms.update.phone.SystemUpdateServiceReceiver</item>
+        <item>com.google.android.setupwizard/com.google.android.setupwizard.time.DateTimeCheck</item>
+    </string-array>
+
+    <!-- Force enabling of some services that could have been previously disabled -->
+    <string-array name="config_forceEnabledComponents" translatable="false">
+        <item>com.google.android.gsf/com.google.android.gsf.update.phone.SystemUpdateService</item>
+        <item>com.google.android.gms/com.google.android.gms.update.phone.SystemUpdateService</item>
+    </string-array>
+
     <!-- Automatic power profile management per app.
          Each item should list the fully-qualified activity
          name and the power profile id, separated by a comma. >
