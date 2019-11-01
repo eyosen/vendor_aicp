@@ -113,6 +113,7 @@ PRODUCT_PACKAGES += \
     FontComfortaaOverlay \
     FontCaviarDreamsOverlay \
     FontExotwoOverlay \
+    FontGoogleSansOverlay \
     FontSnigletOverlay \
     FontSignikaOverlay \
     FontOxaniumOverlay \
