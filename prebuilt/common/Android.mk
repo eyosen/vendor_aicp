@@ -1,5 +1,15 @@
 LOCAL_PATH := $(call my-dir)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := Longshot
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
 # a wrapper for curl which provides wget syntax, for compatibility
 include $(CLEAR_VARS)
 LOCAL_MODULE := wget
@@ -8,6 +18,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MODULE_PATH := $(TARGET_OUT_OPTIONAL_EXECUTABLES)
 include $(BUILD_PREBUILT)
+
 
 ################################
 # Copies the APN list file into $(TARGET_COPY_OUT_PRODUCT)/etc for the product as apns-conf.xml.

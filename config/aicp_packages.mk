@@ -37,6 +37,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Jelly
 
+# LongShot
+PRODUCT_PACKAGES += \
+    Longshot
+
 # OmniJaws
 PRODUCT_PACKAGES += \
     OmniJaws
